@@ -1,0 +1,53 @@
+.reveal section img.noframe {
+  border: none;
+  box-shadow: none;
+}
+
+.reveal .slides .textleft {
+  text-align: left;
+}
+
+img.floatleft {
+  float: left;
+  padding-right: 10px;
+}
+
+img.floatright {
+  float: right;
+  padding-left: 10px;
+}
+
+.reveal .slides .footnote {
+  position: absolute;
+  top: 95%;
+  left: 0%;
+  width: 95%;
+  font-size: 70%;
+  text-align: right;
+  padding-left: 20px;
+  padding-right: 25px;
+  background: rgba(255,255,255,0.5);
+}
+
+.reveal section.brighten {
+  background: rgba(255,255,255,0.6);
+  -webkit-box-shadow: 0px 0px 5px 15px rgba(255,255,255,0.6);
+  -moz-box-shadow: 0px 0px 5px 15px rgba(255,255,255,0.6);
+  box-shadow: 0px 0px 5px 15px rgba(255,255,255,0.6);
+}
+
+.reveal section.darken {
+  background: rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 0px 5px 15px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 0px 5px 15px rgba(0,0,0,0.6);
+  box-shadow: 0px 0px 5px 15px rgba(0,0,0,0.6);
+}
+
+.reveal section .textglow {
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+}
+
+.reveal section .textshadow {
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+}
+
